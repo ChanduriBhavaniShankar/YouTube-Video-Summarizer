@@ -1,0 +1,7 @@
+validators
+streamlit
+langchain
+langchain-community
+langchain_google_genai
+youtube_transcript_api
+unstructured
