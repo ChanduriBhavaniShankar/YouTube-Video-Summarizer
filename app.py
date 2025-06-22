@@ -14,8 +14,8 @@ os.environ["LANGSMITH_TRACING_V2"]="true"
 os.environ["LANGSMITH_PROJECT"]="Youtube Video Summarizer"
 
 ## streamlit APP
-st.set_page_config(page_title="LangChain: Summarize Text From YouTube or Website", page_icon="🦜")
-st.title("Gen-AI: Summarize Text From YT or Website")
+st.set_page_config(page_title="LangChain: Summarize Text From YT or Website", page_icon="🦜")
+st.title("Gen-AI: Summarize Text From YouTube or Website")
 st.subheader('Summarize URL')
 
 ## Get the Groq API Key and url(YT or website)to be summarized
