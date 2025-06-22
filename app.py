@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv() 
 
 ## Langsmith Tracking
-os.environ["LANGSMITH_API_KEY"]=os.getenv("LANGSMITH_API_KEY")
+os.environ["LANGSMITH_API_KEY"]=st.secrets("LANGSMITH_API_KEY")
 os.environ["LANGSMITH_TRACING_V2"]="true"
 os.environ["LANGSMITH_PROJECT"]="Youtube Video Summarizer"
 
